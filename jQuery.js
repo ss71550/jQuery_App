@@ -1,21 +1,19 @@
 $(document).ready(() => {
   let $imagePopout =$("#imagePopout");
-  //$imagePopout.hide();
-
-  let first_number = $("#number1").val();
-  let second_number = $("#number2").val();
+  $imagePopout.hide();
   //click works for image but not multiplying
   $("#multiply").click(() => {
-
-    multiply(first_number, second_number);
+    multiply();
 
     $imagePopout.show();
   })
 });
 
 function multiply(){
+let first_number = $("#number1").val();
+let second_number = $("#number2").val();
 var $result = (first_number*second_number);
 var $print = $("#answer");
 $print.text($result);
-//$("#result").append($print);
+$("#result").append($print);
 }

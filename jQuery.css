@@ -1,18 +1,20 @@
 .man{
  position: absolute;
- width: 270px;
- top: 100px;
- left: 560px;
+ width: 570px;
+ top: 92px;
+ left: 540px;
 }
 .speachBubble{
   position: relative;
-  top:-80px ;
+  top:-60px ;
   left: 450px;
   width: 210px;
 }
 
 #answer{
   position:relative;
-  top:-210px;
-  left:500px
+  top:39px;
+  left:530px;
+  z-index: 0;
+  font-size: 50px;
 }
